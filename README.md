@@ -4,15 +4,19 @@ This package provides you with a simple tool to set up Kendo UI into your projec
 
 ## Installation
 
+### require
+
+`composer require basalam/laravel-kendo-ui`
+
 In project composer.json
 
     "require": {
-	    "synytskiy/laravel-kendo-ui": "dev-master"
+	    "basalam/laravel-kendo-ui": "dev-master"
 	},
     "repositories": [
 	  {
 		"type": "vcs",
-		"url": "git@github.com:alexsynytskiy/kendo-ui-for-php-laravel.git"
+		"url": "git@github.com:Basalam/Laravel_Kendu_Ui.git"
 	  }
 	]
     
@@ -30,12 +34,12 @@ And as last run command in terminal to copy assets from package into "public" di
 ## Usage
 
 ###Basic css:
-    <link href="{{ asset('vendor/synytskiy/css/web/kendo.common.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('vendor/synytskiy/css/web/kendo.default.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('vendor/basalam/css/web/kendo.common.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('vendor/basalam/css/web/kendo.default.min.css') }}" rel="stylesheet" />
 
 ###Basic js:
-    <script src="{{ asset('vendor/synytskiy/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('vendor/synytskiy/js/kendo.all.min.js') }}"></script>
+    <script src="{{ asset('vendor/basalam/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('vendor/basalam/js/kendo.all.min.js') }}"></script>
  
 ###PHP usage example (Chart):
     $errorBars = new \Kendo\Dataviz\UI\ChartSeriesItemErrorBars();
