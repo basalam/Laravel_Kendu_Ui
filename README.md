@@ -46,6 +46,9 @@ And as last run command in terminal to copy assets from package into "public" di
     <script src="{{ asset('vendor/basalam/js/kendo.all.min.js') }}"></script>
  ```
 ### PHP usage example (Chart):
+
+```php
+
     $errorBars = new \Kendo\Dataviz\UI\ChartSeriesItemErrorBars();
     $errorBars -> value('stddev');
 
@@ -78,3 +81,4 @@ And as last run command in terminal to copy assets from package into "public" di
           ->seriesDefaults(array('type' => 'area'));
 
     echo $chart->render();
+```
