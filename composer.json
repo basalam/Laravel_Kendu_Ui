@@ -1,5 +1,5 @@
 {
-  "name": "Basalam/laravel-kendo-ui",
+  "name": "basalam/laravel-kendo-ui",
   "description": "Kendo UI package for Laravel",
   "keywords": ["framework", "laravel","package", "kendo ui"],
   "type": "package",
