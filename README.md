@@ -9,7 +9,7 @@ This package provides you with a simple tool to set up Kendo UI into your projec
 `composer require basalam/laravel-kendo-ui`
 
 In project composer.json
-
+```json
     "require": {
 	    "basalam/laravel-kendo-ui": "dev-master"
 	},
@@ -19,7 +19,7 @@ In project composer.json
 		"url": "git@github.com:Basalam/Laravel_Kendu_Ui.git"
 	  }
 	]
-    
+   ``` 
 After that from application directory in terminal:
     php composer.phar update
     
