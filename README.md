@@ -34,13 +34,17 @@ And as last run command in terminal to copy assets from package into "public" di
 ## Usage
 
 ### Basic css:
+```html
+
     <link href="{{ asset('vendor/basalam/css/web/kendo.common.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('vendor/basalam/css/web/kendo.default.min.css') }}" rel="stylesheet" />
-
+```
 ### Basic js:
+```html
+
     <script src="{{ asset('vendor/basalam/js/jquery.min.js') }}"></script>
     <script src="{{ asset('vendor/basalam/js/kendo.all.min.js') }}"></script>
- 
+ ```
 ### PHP usage example (Chart):
     $errorBars = new \Kendo\Dataviz\UI\ChartSeriesItemErrorBars();
     $errorBars -> value('stddev');
