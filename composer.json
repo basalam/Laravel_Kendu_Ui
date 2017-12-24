@@ -32,11 +32,11 @@
       "php artisan clear-compiled",
       "php artisan optimize"
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "1.0",
     "prefer-stable": true,
     "extra": {
       "branch-alias": {
-        "dev-master": "1.0-dev"
+        "dev-master": "1.0"
       }
     }
   }
