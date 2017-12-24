@@ -9,8 +9,7 @@
       "name": "Ali Shahghale",
       "email": "info.shahghale@gmail.com"
     }
-  ],
-  "prefer-stable" : true,
+  ],  
   "require": {
     "php": ">=5.4.0"
   },
@@ -31,12 +30,7 @@
       "php artisan clear-compiled",
       "php artisan optimize"
     ],
-    "minimum-stability": "1.0",
-    "prefer-stable": true,
-    "extra": {
-      "branch-alias": {
-        "dev-master": "1.0"
-      }
-    }
+    "minimum-stability": "dev",
+    "prefer-stable": true
   }
 }
