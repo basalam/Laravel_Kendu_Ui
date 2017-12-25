@@ -6,7 +6,7 @@ This package provides you with a simple tool to set up Kendo UI into your projec
 
 ### require
 
-`composer require basalam/laravel-kendo-ui:dev-msater`
+`composer require basalam/laravel-kendo-ui`
 
 In project composer.json
 ```json
