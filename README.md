@@ -11,7 +11,7 @@ This package provides you with a simple tool to set up Kendo UI into your projec
 In project composer.json
 ```json
     "require": {
-	    "basalam/laravel-kendo-ui": "dev-master"
+	    "basalam/laravel-kendo-ui": "1.0"
 	},
     "repositories": [
 	  {
