@@ -1,5 +1,7 @@
 # Laravel Package
 
+**this repo is not maintained anymore**
+
 This package provides you with a simple tool to set up Kendo UI into your project
 
 ## Installation
